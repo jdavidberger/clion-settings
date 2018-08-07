@@ -4,6 +4,7 @@
       <mapping ext="exp" type="Native" />
       <mapping ext="ofm" type="PLAIN_TEXT" />
       <mapping ext="in" type="PLAIN_TEXT" />
+      <mapping ext="artx" type="PLAIN_TEXT" />
       <mapping ext="ch" type="XML" />
     </extensionMap>
   </component>
