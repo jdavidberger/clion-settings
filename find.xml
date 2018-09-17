@@ -13,5 +13,6 @@
     <mask>*.css</mask>
     <mask>*.mxml</mask>
     <mask>*.txt</mask>
+    <mask>*.c</mask>
   </component>
 </application>
