@@ -1,0 +1,6 @@
+<application>
+  <component name="EmbeddedDevelopment">
+    <option name="openOcdLocation" value="$USER_HOME$/Ac6/SystemWorkbench/plugins/com.st.stm32ide.mpu.externaltools.openocd.linux64_1.0.0.201902141520/resources/openocd-mpu/bin/openocd" />
+    <option name="stm32CubeMXLocation" value="$USER_HOME$/STM32CubeMX/STM32CubeMX" />
+  </component>
+</application>

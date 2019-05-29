@@ -1,0 +1,9 @@
+<toolSet name="External Tools">
+  <tool name="cp to device" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="scp" />
+      <option name="PARAMETERS" value="$CMakeCurrentBuildDir$/DMATest.elf root@192.168.1.32:/root/DMATest2/lib/firmware" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/source/MP1/DMATest2/cmake-build-debug" />
+    </exec>
+  </tool>
+</toolSet>

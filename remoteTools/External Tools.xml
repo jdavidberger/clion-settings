@@ -1,0 +1,9 @@
+<toolSet name="External Tools">
+  <tool name="fw_flash" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true" CONNECTION_TYPE="DEPLOYMENT_SERVER" CONNECTION_ID="39f8b17f-051d-43fc-8e9b-907084f8adc3">
+    <exec>
+      <option name="COMMAND" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="/root" />
+    </exec>
+  </tool>
+</toolSet>
