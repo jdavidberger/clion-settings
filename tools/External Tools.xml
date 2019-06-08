@@ -9,8 +9,8 @@
   <tool name="start fw" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="ssh" />
-      <option name="PARAMETERS" value="root@192.168.1.32 'echo &quot;stop&quot; &gt;/sys/class/remoteproc/remoteproc0/state; echo &quot;DMATest&quot; &gt;/sys/class/remoteproc/remoteproc0/firmware; 'echo &quot;start&quot; &gt;/sys/class/remoteproc/remoteproc0/state'" />
-      <option name="WORKING_DIRECTORY" />
+      <option name="PARAMETERS" value="root@192.168.1.32 &quot;echo stop &gt; /sys/class/remoteproc/remoteproc0/state; echo DMATest.elf &gt; /sys/class/remoteproc/remoteproc0/firmware; echo start &gt; /sys/class/remoteproc/remoteproc0/state&quot;" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
     </exec>
   </tool>
 </toolSet>
