@@ -6,6 +6,7 @@
       <mapping ext="rec" type="PLAIN_TEXT" />
       <mapping ext="in" type="PLAIN_TEXT" />
       <mapping ext="prog" type="PLAIN_TEXT" />
+      <mapping ext="usbdevs" type="PLAIN_TEXT" />
       <mapping ext="sage" type="Python" />
       <mapping ext="ch" type="XML" />
     </extensionMap>
